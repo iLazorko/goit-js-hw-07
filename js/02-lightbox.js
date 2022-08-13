@@ -59,5 +59,5 @@ new SimpleLightbox(".gallery a", {
   showCounter: false,
   captionsData: "alt",
   close: false,
-  heightRatio: 0.7,
+  heightRatio: 0.8,
 });
