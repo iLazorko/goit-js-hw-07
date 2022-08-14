@@ -80,7 +80,9 @@ function openModal(e) {
     return;
   }
   basicLightbox
-    .create(`<img width="1400" height="900" src="${e.target.dataset.source}">`)
+    .create(
+      `<img width="1400" height="900" src="${e.target.dataset.source}" alt="e.target.description">`
+    )
     .show();
 
   document.addEventListener("keydown", closeModalFromKeyboard);
